@@ -2,7 +2,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import Link from "next/link"
 
 function Services() {
-  let services={
+  const services={
     'Ant Control':' Ants are small in size but big in irritation. From carpenter ants to pavement ants, our ant exterminators know what it takes to wipe out ant nests and ant colonies for good.',
 
     'Fly Control':'Food preparation and disposal, along with air currents, attracts flies into homes. Professional fly control helps you get rid of flies permanently. Let us help you maintain a fly-free home.',

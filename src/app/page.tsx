@@ -1,6 +1,5 @@
 import ContactForm from "@/components/ContactForm";
 import { CircleCheckBig } from "lucide-react";
-import Image from "next/image";
 
 export default function Home() {
   return (

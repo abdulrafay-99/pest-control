@@ -1,8 +1,7 @@
-import { Input } from "./ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select"
 
 function ContactForm() {
-    let inputStyle = "w-full rounded-md p-2 bg-transparent border-2 border-white caret-white text-white my-2"
+    const inputStyle = "w-full rounded-md p-2 bg-transparent border-2 border-white caret-white text-white my-2"
     return (
         <form action="" className="p-8">
             <input type="text" required placeholder="Full Name" name="fullName" className={inputStyle} />

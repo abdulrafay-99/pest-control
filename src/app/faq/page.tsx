@@ -1,7 +1,7 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 function Services() {
-  let qaSet={
+  const qaSet={
     'Is it accessible?':' Yes. It adheres to the WAI-ARIA design pattern.',
     'Is it accesible?':' Yes. It adheres to the WAI-ARIA design pattern',
     'Is it accesile?':' Yes. It adheres to the WAI-ARIA design patten.',
