@@ -3,7 +3,7 @@ import { Facebook,Youtube,Instagram,Linkedin,Mail, MapPinHouse, Phone} from "luc
 function Footer() {
   return (
     <footer className="w-full bg-slate-950 h-fit text-white p-4">
-        <div className="md:flex justify-around flex flex-col">
+        <div className="md:flex-row justify-around flex flex-col">
             <div className="flex flex-col items-center gap-2">
                 <h1 className="text-xl text-center">Contact</h1>
                 <hr />
